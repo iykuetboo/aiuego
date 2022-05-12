@@ -21,6 +21,7 @@ var (
 type message struct {
 	Handle string `json:"handle"`
 	Text   string `json:"text"`
+	Room   string `json:"room"`
 }
 
 // validateMessage so that we know it's valid JSON and contains a Handle and
